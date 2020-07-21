@@ -7,7 +7,7 @@
     <groupId>org.minbox.framework</groupId>
     <artifactId>oss-parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.1.0.RELEASE</version>
+    <version>0.2.0.RELEASE</version>
     <name>oss-parent</name>
     <url>https://github.com/hengboy/oss-parent</url>
     <description>
@@ -15,17 +15,19 @@
     </description>
     <properties>
         <java.version>1.8</java.version>
-        <maven.compiler.plugin.version>3.5.1</maven.compiler.plugin.version>
-        <maven.source.plugin.version>3.0.1</maven.source.plugin.version>
+        <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
+        <maven.source.plugin.version>3.2.1</maven.source.plugin.version>
         <maven.gpg.plugin.version>1.6</maven.gpg.plugin.version>
         <maven.javadoc.plugin.version>2.10.4</maven.javadoc.plugin.version>
     </properties>
     <developers>
         <developer>
-            <name>Yu Qi Yu</name>
+            <id>hengboy</id>
+            <name>恒宇少年 - 于起宇</name>
             <email>jnyuqy@gmail.com</email>
-            <organization>github</organization>
-            <organizationUrl>https://github.com/hengboy</organizationUrl>
+            <url>https://blog.yuqiyu.com</url>
+            <organization>minbox-projects</organization>
+            <organizationUrl>https://gitee.com/minbox-projects</organizationUrl>
         </developer>
     </developers>
     <scm>
@@ -40,16 +42,6 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
     </licenses>
-    <distributionManagement>
-        <snapshotRepository>
-            <id>hengyu</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>hengyu</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
     <build>
         <plugins>
             <!--jdk version-->
